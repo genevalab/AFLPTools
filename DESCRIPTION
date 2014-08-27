@@ -1,9 +1,9 @@
 Package: AFLPTools
-Title: What the package does (short line)
+Title: Tools for the curation and analysis of AFLP data
 Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (paragraph)
+Author: Anthony J Geneva <anthony.geneva@gmail.com>,
+Description: This collection of tools assists in the selection of locus and phenotype thresholds
+for AFLP data and creates and filters data formatted for analysis in STRUCTURE
 Depends:
-    R (>= 3.0.3)
-License: What license is it under?
-LazyData: true
+    R (>= 3.0.3),
+License: GPL-2
