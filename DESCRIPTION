@@ -8,3 +8,4 @@ Description: This collection of tools assists in the selection of locus and
 Depends:
     R (>= 3.0.3),
 License: GPL-2
+LazyData: true

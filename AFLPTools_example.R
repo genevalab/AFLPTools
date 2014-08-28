@@ -7,7 +7,7 @@
 # a set of duplicate samples at the top of
 # a phenotype table
 ###########################################
-setwd("./data/")
+setwd("./data-raw/")
 files <- c("M47_Blue.txt", "M47_Green.txt", "M49_Blue.txt", "M49_Green.txt","M51_Blue.txt", "M51_Green.txt") # list filenames
 dups <- c(24,24,24,24,24,24) #number of duplicate pairs per file
 locus_list <- c(100,250,500,750)
