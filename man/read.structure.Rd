@@ -9,7 +9,7 @@ read.structure(infile)
 \item{\code{infile}}{filename of Structure dataset}
 }
 \description{
-This function reads an \code{STRUCTURE} formatted AFLP dataset and returns a row labelled dataframe
+This function reads a \code{STRUCTURE}-formatted AFLP dataset and returns a row labelled dataframe
 }
 \examples{
 read.structure(myStructureFile)
