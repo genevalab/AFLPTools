@@ -16,4 +16,7 @@ filtered_P2 <- P2[-which(rowSums(P2[,2:ncol(P2)])<(m-sd)),]
 write.structure(filtered_P2,"/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL2/P2_ALL_SAMPLES/project_data")
 
 
+<<<<<<< HEAD
 filter.samples("/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/PL1/P1_ALL_SAMPLES/project_data","/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL1/P1_ALL_SAMPLES/project_data_test",1)
+=======
+>>>>>>> ee23773d54dca35e89bb729790c869295ae2f907

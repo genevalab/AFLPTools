@@ -11,7 +11,11 @@ write.structure(dat, outfile)
 \item{\code{outfile}}{desired filename for filtered Structure dataset}
 }
 \description{
+<<<<<<< HEAD
 This function reads a \code{STRUCTURE}-formatted AFLP dataset and returns a row labelled dataframe
+=======
+This function reads an \code{STRUCTURE} formatted AFLP dataset and returns a row labelled dataframe
+>>>>>>> ee23773d54dca35e89bb729790c869295ae2f907
 }
 \examples{
 write.structure(dat, myOutfile)
