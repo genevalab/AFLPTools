@@ -1,6 +1,6 @@
 #' Read a standard STRUCTURE dataset
 #'
-#' This function reads an \code{STRUCTURE} formatted AFLP dataset and returns a row labelled dataframe
+#' This function reads a \code{STRUCTURE}-formatted AFLP dataset and returns a row labelled dataframe
 #' @param \code{infile}  filename of Structure dataset 
 
 #' @keywords STRUCTURE, AFLP, read
