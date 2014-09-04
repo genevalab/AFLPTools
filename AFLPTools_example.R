@@ -31,3 +31,7 @@ for (i in 1:length(files)){
   write.table(err, file="error_Tables.csv", quote=FALSE, append=T, sep=",")
   write.table("\n", file="error_Tables.csv", append=T,col.names=FALSE, row.names=FALSE, sep=",", quote=F)
 }
+
+
+filter.samples("/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/PL1/P1_ALL_SAMPLES/project_data","/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL1/P1_ALL_SAMPLES/project_data_test",1)
+filter.loci("/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL1/P1_ALL_SAMPLES/project_data_test","/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL1/P1_ALL_SAMPLES/project_data_test")
