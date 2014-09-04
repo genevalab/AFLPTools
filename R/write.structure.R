@@ -11,17 +11,10 @@
 
 
 write.structure <- function(dat,outfile){
-<<<<<<< HEAD
   write(rep(0,(ncol(dat)-1)),file=outfile, sep="\t", ncolumns=ncol(dat)-1)
   write.table(dat,outfile, quote=F, sep="\t", col.names=F, append=T)
   cat("Final dataset written, dimensions:\n")
   cat(nrow(dat),"individuals\n")
   cat((ncol(dat)-1),"loci\n")
-=======
-  write(rep(0,(ncol(filtered_dat)-1)),file=outfile, sep="\t", ncolumns=ncol(filtered_dat)-1)
-  write.table(filtered_dat,outfile, quote=F, sep="\t", col.names=F, append=T)
-  cat("Final dataset written, dimensions:\n")
-  cat(nrow(filtered_dat),"individuals\n")
-  cat((ncol(filtered_dat)-1),"loci\n")
->>>>>>> ee23773d54dca35e89bb729790c869295ae2f907
+
 }
