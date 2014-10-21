@@ -8,8 +8,13 @@
 # a phenotype table
 ###########################################
 setwd("./data-raw/")
+#create list of files to input files
 files <- c("M47_Blue.txt", "M47_Green.txt", "M49_Blue.txt", "M49_Green.txt","M51_Blue.txt", "M51_Green.txt") # list filenames
-dups <- c(24,24,24,24,24,24) #number of duplicate pairs per file
+
+#number of duplicate pairs per file
+dups <- c(24,24,24,24,24,24) 
+
+
 locus_list <- c(100,250,500,750)
 phenotype_list <- c(100,250,500,750,1000)
 
@@ -33,5 +38,8 @@ for (i in 1:length(files)){
 }
 
 
-filter.samples("/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/PL1/P1_ALL_SAMPLES/project_data","/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL1/P1_ALL_SAMPLES/project_data_test",1)
-filter.loci("/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL1/P1_ALL_SAMPLES/project_data_test","/Users/ageneva/Dropbox/Non_Dissertation_Research/UR_undergrad_projects/Brev_Dist_AFLP/AJG_reAnalysis/Structure_analyses/poor_samples_removed/PL1/P1_ALL_SAMPLES/project_data_test")
+#Once you select error rates use these functions to remove low quality samples and loci
+filter.samples(infile,outfile,1)
+
+filter.loci(infile,outfile)
+
