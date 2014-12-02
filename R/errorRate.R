@@ -1,6 +1,6 @@
 #' Calculates mismatch error rate for AFLP dataset
 #'
-#' This function reads an \code{STRUCTURE} formatted AFLP dataset and writes a filtered version of that file
+#' This function reads an AFLP binary matrix dataset and calculates the error rate
 #' @param \code{filename}  filename of matrix containing duplicates 
 #' @param \code{duplicates}  integer, the number of duplicate pairs
 #' @keywords STRUCTURE, AFLP, error
